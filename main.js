@@ -7,8 +7,6 @@ $(document).ready(function() {
     var curSession = parseInt($("#session").text());
 
     var clock = new Date();
-    console.log(curTime);
-    //clock.setHours(0, curTime, 0);
     clock.setHours(0, curTime, 0);
 
     var t = 0;
@@ -34,20 +32,17 @@ $(document).ready(function() {
             $("#timer").text(curSession);
             curTime = $("#timer").text();
             t = 0;
-            //clock.setHours(0, curTime, 0);
             clock.setHours(0, curTime, 0);
         }
     });
 
     $("#plusSession").on("click", function() {
         if (paused) {
-            t = 0;
             curSession++;
             $("#session").text(curSession);
             $("#timer").text(curSession);
             curTime = $("#timer").text();
             t = 0;
-            //clock.setHours(0, curTime, 0);
             clock.setHours(0, curTime, 0);
         }
     });
@@ -96,10 +91,9 @@ $(document).ready(function() {
                 clock.setHours(0, curTime, 0);
                 t = setTimeout(getTimer, 1000);
             }
-
             return;   
         }
-
+        
         clock.setSeconds(clock.getSeconds()-1);
         t = setTimeout(getTimer, 1000);
     }
