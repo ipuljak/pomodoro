@@ -1,0 +1,82 @@
+body {
+	background: #333333;
+	font-family: Inconsolata;
+	color: white;
+	text-align: center;
+}
+
+.timer {
+	display: inline-block;
+	margin: 0 30px;
+}
+
+.counter {
+	margin: 0 10px;
+	cursor: pointer;
+}
+
+.timer h4 {
+	font-size: 1.6em;
+}
+
+.timer p {
+	font-size: 2em;
+}
+
+h1 {
+	text-align: center;
+	display: wrap;
+	font-family: Lobster;
+	font-size: 7em;
+	margin: 50px 0;
+}
+
+
+.circledsdfs {
+	display: inline-block;
+	border: 2px solid #40c947;
+	border-radius: 50%;
+	margin: 20px auto;
+}
+
+.circle {
+    margin: 30px auto;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    font-size: 4em;
+    border: 2px solid #40C947;
+    border-color: #40C947;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    z-index: 20;
+    overflow: hidden;
+ }
+
+.circle h2 {
+	padding: 30px 20px;
+}
+
+.circle p {
+	font-size: 1.6em;
+}
+
+
+
+#signature {
+	color: white;
+	text-align: center;
+	text-transform: none;
+	font-size: 1em;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
