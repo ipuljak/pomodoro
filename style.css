@@ -1,79 +1,75 @@
 body {
-	background: #333333;
-	font-family: Inconsolata;
-	color: white;
-	text-align: center;
-}
-
-.timer {
-	display: inline-block;
-	margin: 0 30px;
-}
-
-.counter {
-	margin: 0 10px;
-	cursor: pointer;
-}
-
-.timer h4 {
-	font-size: 1.6em;
-}
-
-.timer p {
-	font-size: 2em;
+  background: #333;
+  color: #FFF;
+  font-family: Inconsolata;
+  text-align: center;
 }
 
 h1 {
-	text-align: center;
-	display: wrap;
-	font-family: Lobster;
-	font-size: 7em;
-	margin: 50px 0;
-}
-
-.circledsdfs {
-	display: inline-block;
-	border: 2px solid #40c947;
-	border-radius: 50%;
-	margin: 20px auto;
+  display: wrap;
+  font-family: Lobster;
+  font-size: 7em;
+  margin: 50px 0;
+  text-align: center;
 }
 
 .circle {
-    margin: 30px auto;
-    text-align: center;
-    width: 300px;
-    height: 300px;
-    font-size: 4em;
-    border: 2px solid #40C947;
-    border-color: #40C947;
-    border-radius: 50%;
-    cursor: pointer;
-    position: relative;
-    z-index: 20;
-    overflow: hidden;
- }
+  border: 2px solid #40C947;
+  border-color: #40C947;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 4em;
+  height: 300px;
+  margin: 30px auto;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 300px;
+  z-index: 20;
+}
 
 .circle h2 {
-	padding: 30px 20px;
+  padding: 30px 20px;
 }
 
-.circle p {
-	font-size: 1.6em;
+.circledsdfs {
+  border: 2px solid #40c947;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 20px auto;
 }
 
-#signature {
-	color: white;
-	text-align: center;
-	text-transform: none;
-	font-size: 1em;
+.counter {
+  cursor: pointer;
+  margin: 0 10px;
 }
 
 .noselect {
-  -webkit-touch-callout: none; /* iOS Safari */
-  -webkit-user-select: none;   /* Chrome/Safari/Opera */
-  -khtml-user-select: none;    /* Konqueror */
-  -moz-user-select: none;      /* Firefox */
-  -ms-user-select: none;       /* Internet Explorer/Edge */
-  user-select: none;           /* Non-prefixed version, currently
-                                  not supported by any browser */
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.timer {
+  display: inline-block;
+  margin: 0 30px;
+}
+
+.timer h4,
+.circle p {
+  font-size: 1.6em;
+}
+
+.timer p {
+  font-size: 2em;
+}
+
+#signature {
+  color: #FFF;
+  font-size: 1em;
+  text-align: center;
+  text-transform: none;
 }
